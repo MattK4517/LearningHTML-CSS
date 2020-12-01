@@ -144,13 +144,14 @@ footer {
 /* Position the image container (needed to position the left and right arrows) */
 .container {
   position: absolute;
-  top: 150px;
+  margin-top: 5px;
   margin-right: 50px;
 }
 
 /* Hide the images by default */
 .mySlides {
   display: none;
+  /* margin-left: 100px; */
 }
 
 /* Add a pointer when hovering over the thumbnail images */
@@ -218,6 +219,7 @@ footer {
 
 /* Add a transparency effect for thumnbail images */
 .demo {
+  margin-left: 4px;
   opacity: 0.25;
 }
 
